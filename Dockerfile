@@ -28,5 +28,5 @@ COPY --from=build-env /$APP_NAME .
 # Expose application port
 EXPOSE 8081
 
-# Start app with argument first is hostname and second is port number
+# Start app 
 CMD ./$APP_NAME
